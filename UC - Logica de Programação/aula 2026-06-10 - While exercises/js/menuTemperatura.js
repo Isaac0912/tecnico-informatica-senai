@@ -1,7 +1,9 @@
-let temperaturaCelsius = 14;
+let temperaturaCelsius = Number(prompt("Entre a temperatura atual em Celsius."));
 let temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
-let menu = Number(prompt("Menu\n1-Celsius para Fahrenheit.\n2-Fahrenheit para Celsius.\n0-Sair."));
+let menu = undefined;
+
 while (menu !== 0) {
+    menu = Number(prompt("Menu\n1-Celsius para Fahrenheit.\n2-Fahrenheit para Celsius.\n0-Sair."));
     if (menu == 1) {
         let formulaFahrenheit = (temperaturaCelsius * 1.8) + 32;
         alert(`${formulaFahrenheit}°F`);
