@@ -1,4 +1,6 @@
 # tecnico-informatica-senai
 
-Neste repositório é guardado scripts do meu curso técnico do SENAI. Meu objetivo é mostrar minha evolução. 
-\\ Obs: Como estou criando este repositório um tempo depois do início do curso, irei colocar diversos arquivos no mesmo dia.
+Repositório destinado ao armazenamento de arquivos e scripts desenvolvidos no aprendizado do curso Técnico em Informática para Internet do SENAI.
+
+Meu objetivo é a documentar minha evolução e manter um histórico do que eu aprendi ao longo da formação.
+*Obs: Como este repositório foi criado após o início do curso, alguns arquivos em períodos diferentes poderão ser adicionados na mesma data.*
