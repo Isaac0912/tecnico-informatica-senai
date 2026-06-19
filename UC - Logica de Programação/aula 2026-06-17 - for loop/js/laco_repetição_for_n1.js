@@ -1,3 +1,4 @@
+//Algoritmo criado pelo professor para ensino
 let i;
 for (i = 0; i <= 5; i++) {
     console.log("Iteração", i);
