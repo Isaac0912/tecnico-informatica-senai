@@ -1,3 +1,6 @@
+// 4. **Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever:**
+//     - F - Feminino
+//     - M - Masculino.
 let genero = prompt("digite seu gênero (F,M, Feminino ou Masculino)").toLowerCase();
 
 if (genero === "f" || genero === "feminino") {

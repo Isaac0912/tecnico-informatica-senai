@@ -1,3 +1,4 @@
+// 8. Peça um número de 1 a 12 e mostre o nome do mês correspondente.
 let number = Number(prompt("digite o número de um mês (1 a 12) "));
 
 if (number === 1) {

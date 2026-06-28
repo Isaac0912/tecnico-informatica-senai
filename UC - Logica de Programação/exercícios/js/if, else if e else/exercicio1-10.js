@@ -1,3 +1,6 @@
+// 10. **Conversor de Moedas:** 
+//     - Crie um conversor que aceite um valor em reais e a cotação do dólar, euro e libra.
+//     - O programa deve converter o valor para essas três moedas.
 let valorUSD = 0.20;
 let valorEUR = 0.17;
 let valorLIB = 0.15;

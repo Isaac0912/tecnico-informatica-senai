@@ -1,3 +1,4 @@
+// 7. Peça um número de 1 a 7 e informe o dia da semana correspondente.
 let number = Number(prompt("Digite um número de 1 a 7. "));
 if (number === 1) {
     console.log("Domingo.");
