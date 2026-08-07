@@ -9,13 +9,12 @@
 // e exiba o resultado com console.log().
 
 function calcularDesconto(preco) {
-    let valorDesconto = preco * 0.10;
-    return valorDesconto;
-} let valorDesconto = calcularDesconto(200)
-function calcularPrecoFinal(valorDesconto) {
-    let precoFinal = preco;
-    precoFinal = precoFinal - valorDesconto;
-    return precoFinal;
+    return preco * 0.10;
 }
 
-console.log(calcularPrecoFinal(valorDesconto));
+function calcularPrecoFinal(preco) {
+    let valorDesconto = calcularDesconto(preco);
+    return preco - valorDesconto;
+}
+
+console.log(calcularPrecoFinal(200));
