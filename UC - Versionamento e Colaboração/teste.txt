@@ -1,3 +1,5 @@
 Olá, Mundo!
+Hello, World!
+Hola, Mundo!
 
 teste de git.
