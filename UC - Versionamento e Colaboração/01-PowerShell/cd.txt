@@ -1,0 +1,9 @@
+cd -> Mudar diretório (pasta)
+cd .. -> Ir para a pasta Mãe da Subpasta (voltar uma pasta)
+cd ~ -> Vai para a pasta de usuário ou a pasta principal do usuário atual
+cd \ -> Vai para a raiz das pastas
+cd .\[pasta]\ -> Acessar uma pasta a partir da pasta Mãe
+
+ls -> Lista todas as pastas e arquivos
+mkdir [nomeDaPasta] -> Cria uma pasta com nomeDaPasta
+clear -> Limpar tela do PowerShell
