@@ -8,3 +8,10 @@ O Curso Técnico Informática Para Internet abrange conteúdos de Front-End,  UI
 Intervalo: 20h00.
 Fim Intervalo: 20h15.
 Fim: 22h30.
+
+## Quadro Semanal
+
+Geralmente apenas 3 dias presenciais, por padrão:
+1. Segunda-feira
+2. Quarta-feira
+3. Quinta-feira
