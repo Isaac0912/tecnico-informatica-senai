@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="/enviar" method="post">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome"
+            placeholder="Digite seu nome">
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <form>
+        <!--for + id-->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+        <!--Input dentro do Label-->
+        <label>
+            E-mail 
+            <input type="email" name="email">
+        </label>
+    </form>
+    <br>
+    <form>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+        <label for="cor">Cor</label>
+        <input type="color" id="cor" name="cor">
+        <br><br>
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data">
+        <br><br>
+        <label for="horas">Horário</label>
+        <input type="time" id="horas" name="horas">
+        <br><br>
+        <label for="dataehora">Data e Hora</label>
+        <input type="datetime-local" id="dataehora" name="dataehora">
+    </form>
+</body>
+</html>
