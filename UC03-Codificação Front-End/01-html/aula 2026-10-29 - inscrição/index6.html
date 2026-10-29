@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+</head>
+<body>
+    <form action="/inscricao" method="post">
+        <label for="nomeCompleto">Nome Completo</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" autofocus>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" autocomplete="email">
+        <label for="leitura">Somente leitura</label>
+        <input type="text" id="leitura" name="leitura" readonly>
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}"
+            placeholder="00000-000" title="Formato: 00000-000">
+        <button type="submit">Enviar dados</button>
+        <button type="reset">Limpar dados</button>
+    </form>
+</body>
+</html>
