@@ -10,7 +10,7 @@
     <input type="number" id="idade" name="idade" min="0" max="100">
     <br>
     <label for="dataNascimento">Data de Nascimento</label>
-    <input type="data" id="dataNascimento" name="DataDeNascimento">
+    <input type="date" id="dataNascimento" name="DataDeNascimento">
     <br>
     <label for="curriculo">Currículo (PDF)</label>
     <input type="file" id="curriculo" name="curriculo" accept=".pdf">
@@ -47,6 +47,18 @@
             <option value="CienciasContabeis">Ciência da Contábeis</option>
         </optgroup>
     </select>
-
+    <br>
+    <h3>Texto Longo</h3>
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" rows="5" maxlength="5000" minlength="10" placeholder="Digite uma mensagem"></textarea>
+    <br><br>
+    <label for="cidade">Cidade</label>
+    <input list="cidades" id="cidade" name="cidade">
+    <datalist id="cidades">
+        <option value="Chapecó"></option>
+        <option value="Florianópolis"></option>
+        <option value="Joinville"></option>
+        <option value="Blumenau"></option>
+    </datalist>
 </body>
 </html>
